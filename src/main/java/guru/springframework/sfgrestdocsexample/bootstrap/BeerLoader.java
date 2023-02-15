@@ -24,7 +24,7 @@ public class BeerLoader implements CommandLineRunner {
         loadBeerObjects();
     }
 
-    // just
+    // just adding 
     private void loadBeerObjects() {
         if(beerRepository.count() == 0){
 
